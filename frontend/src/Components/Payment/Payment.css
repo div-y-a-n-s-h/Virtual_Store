@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the form */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Limit the width of the form */
+    margin: auto; /* Center the form */
+}
+
+.sub-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Darker text for better readability */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: 100%; /* Full width inputs */
+    padding: 12px; /* Padding for inputs */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for inputs */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus {
+    border-color: #ff4141; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.btn {
+    width: 100%; /* Full width button */
+    padding: 12px; /* Padding for button */
+    background-color: #ff4141; /* Button background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 18px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #e03e3e; /* Darker shade on hover */
+}
+
+.wrapper p {
+    margin-top: 15px; /* Space above the paragraph */
+    color: #666; /* Lighter text color */
+    font-size: 14px; /* Font size for paragraph */
+}

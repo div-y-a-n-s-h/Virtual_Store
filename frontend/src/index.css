@@ -1,0 +1,16 @@
+body {
+  background: #fff;
+  color: #000000;
+  transition: background 0.3s, color 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
